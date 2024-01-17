@@ -1,0 +1,10 @@
+// HOW DOES REACT UPDATE THE DOM //
+-- How function component are exercuted.
+--- NB // When a state changes the component will be exercuted again.
+-- memo function is a built in react function that is used to prevent normal function exercusion.
+-- memo will compare the props values and if the props values are the same the function wont exercute.
+-- Dont overuse the memo function- - place it on the high up the component in the component tree.
+-- blocking the exercusion of the high end componet will also block the exercusion of the child components
+
+//useCallback hook //
+-- can be used to avoid the recreation of the function.
